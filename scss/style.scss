@@ -7,6 +7,7 @@ $background: saturate(#e6ccc5, 70%); //built in function 2
 $bodytype: 'Helvetica', sans-serif;
 $displaytype: 'Didot', sans-serif;
 $padding: 30px;
+$margin: 20px;
 
 //selector nesting - see "navigation"
 
@@ -15,10 +16,11 @@ $padding: 30px;
 //@extend - under headers 
 
 //mixin
+//math
 @mixin wrapper{
     background-color: #fff;
     position: center;
-    margin: 5% 10%;
+    margin: $margin * 4;
     padding: $padding;
 }
 
@@ -60,7 +62,6 @@ h1{
     text-align: center;
     font-family: $displaytype;
     color: #000;
-    margin-top: 5px;
 }
 
 h2{
@@ -80,8 +81,10 @@ h3, h4, h5, h6{
     text-align: left;
 }
 
+//math
 p{
     color: #000;
+    padding-left: $padding / 2;
 }
 
 #pwelcome{
