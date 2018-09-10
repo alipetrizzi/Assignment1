@@ -1,8 +1,9 @@
 //this is a single line comment for scss
 
 //scss variables
-$accent: #d6aca2;
-$background: #e6ccc5;
+//built in functions
+$accent: darken(#d6aca2, 10%); //built in function 1
+$background: saturate(#e6ccc5, 70%); //built in function 2
 $bodytype: 'Helvetica', sans-serif;
 $displaytype: 'Didot', sans-serif;
 $padding: 30px;
@@ -13,7 +14,7 @@ $padding: 30px;
 
 body{
     font-family: $bodytype;
-    background-color: #e6ccc5;
+    background-color: $background;
 }
 
 #wrapper{
@@ -38,7 +39,7 @@ body{
 /************headers, heading, and content***********/
 header, h2, h3, h4, h5, h6{
     font-family: $displaytype;
-    color: #D6ACA2;
+    color: $accent;
     text-align: left;
 }
 

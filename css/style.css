@@ -1,6 +1,6 @@
 body {
   font-family: "Helvetica", sans-serif;
-  background-color: #e6ccc5; }
+  background-color: #ffbeac; }
 
 #wrapper {
   background-color: #fff;
@@ -22,7 +22,7 @@ body {
 /************headers, heading, and content***********/
 header, h2, h3, h4, h5, h6 {
   font-family: "Didot", sans-serif;
-  color: #D6ACA2;
+  color: #c68c7f;
   text-align: left; }
 
 h1 {
