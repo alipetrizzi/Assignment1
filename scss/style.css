@@ -1,8 +1,9 @@
+/*************body*************/
 body {
   font-family: "Helvetica", sans-serif;
   background-color: #ffbeac; }
 
-#wrapper {
+#bodywrapper {
   background-color: #fff;
   position: center;
   margin: 5% 10%;
@@ -20,7 +21,7 @@ body {
   border-top-right-radius: 0px; }
 
 /************headers, heading, and content***********/
-header, h2, h3, h4, h5, h6 {
+header, h1, h2, h3, h4, h5, h6 {
   font-family: "Didot", sans-serif;
   color: #c68c7f;
   text-align: left; }
@@ -28,9 +29,7 @@ header, h2, h3, h4, h5, h6 {
 h1 {
   text-align: center;
   font-family: "Didot", sans-serif;
-  color: #000; }
-
-h1 {
+  color: #000;
   margin-top: 5px; }
 
 h2 {
